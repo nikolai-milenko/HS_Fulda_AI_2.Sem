@@ -27,3 +27,28 @@ Was hängen geblieben ist: Softwareentwicklung ist kein reines Tippen, sondern e
 ### Feedback (optional)
 
 Die Einbindung praktischer Beispiele wie Semmelweis war top. Die Folien im Moodle waren allerdings noch von 2022. Es wäre hilfreich, wenn die aktuelle Version vor der Vorlesung verfügbar wäre.
+
+## Woche 2025-04-28
+- Datum der Vorlesung: 2025-04-28
+
+### Lernziel
+
+- Verstehen des imperativen Paradigmas und seiner Definition  
+- Unterschiede zwischen deklarativer, prozeduraler und funktionaler Programmierung herausarbeiten  
+- Vorteile typisierter vs. typenloser Sprachen evaluieren  
+- Grundprinzipien SOLID, STUPID und KISS kennenlernen und abgrenzen
+
+### Erkenntnis
+
+In der Vorlesung fand ich das Konzept der deklarativen Programmierung am spannendsten, weil hier der Fokus auf der Beschreibung des Problems liegt und der Lösungsweg automatisch ermittelt wird – das minimiert Seiteneffekte und erhöht die Vorhersagbarkeit des Codes.  
+In der Übung wurde deutlich, wie SOLID‑Prinzipien (z. B. Single Responsibility, Open/Closed) im Gegensatz zu STUPID‑Prinzipien stehen: SOLID erfordert anfänglich mehr Architekturaufwand, verbessert jedoch langfristig die Wartbarkeit erheblich.
+
+### Wiederholung
+
+**Fachbegriff:** Open/Closed Principle (OCP)  
+**Erklärung:**
+Ein Software‑Modul soll für Erweiterungen offen, für Änderungen geschlossen sein. Neue Funktionalität wird über Erweiterungen (z. B. Vererbung oder Composition) hinzugefügt, ohne bestehenden Quellcode zu verändern. So lassen sich Regressionen verhindern.
+
+### Feedback (optional)
+
+- **Vorlesung:** Sehr klar strukturiert, aber mehr Code‑Beispiele wären hilfreich gewesen.  
