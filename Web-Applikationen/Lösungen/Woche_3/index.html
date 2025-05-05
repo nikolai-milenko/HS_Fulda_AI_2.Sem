@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Übung 3: Bootstrap</title>
+  <link rel="stylesheet" href="include/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Meine Seite</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Über uns</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hauptinhalt mit Container -->
+  <div class="container mt-4">
+    <h1>Willkommen!</h1>
+
+    <!-- Card -->
+    <div class="card" style="width: 18rem;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRwRL7EsCdAYY0SDjSjRcIzoPaN7_FjRYW2g&s" class="card-img-top" alt="Beispielbild">
+      <div class="card-body">
+        <h5 class="card-title">Beispiel-Card</h5>
+        <p class="card-text">Dies ist ein Beispieltext innerhalb der Card-Komponente von Bootstrap.</p>
+        <a href="#" class="btn btn-primary">Mehr erfahren</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="include/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
