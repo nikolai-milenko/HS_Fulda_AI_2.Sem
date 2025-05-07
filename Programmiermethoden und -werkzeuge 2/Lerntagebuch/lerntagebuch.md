@@ -51,4 +51,30 @@ Ein Software‑Modul soll für Erweiterungen offen, für Änderungen geschlossen
 
 ### Feedback (optional)
 
-- **Vorlesung:** Sehr klar strukturiert, aber mehr Code‑Beispiele wären hilfreich gewesen.  
+- **Vorlesung:** Sehr klar strukturiert, aber mehr Code‑Beispiele wären hilfreich gewesen.
+
+## Woche 2025-05-05
+- Datum der Vorlesung: 2025-05-05
+
+### Lernziel
+
+- Verstehen, was Entwurfsmuster (Design Patterns) sind und warum sie eingesetzt werden  
+- Einordnung der Muster in Erzeugungs‑, Struktur‑ und Verhaltensmuster  
+- Kennenlernen ausgewählter GoF‑Muster: Builder, Factory Method, Singleton
+- Vor‑ und Nachteile von Entwurfsmustern erkennen (z. B. Einstiegshürde vs. Kommunikationserleichterung)  
+- Überblick zur Geschichte von Programmierwerkzeugen und Entwicklung moderner IDEs  
+- Verständnis wichtiger IDE‑Funktionen: Syntax‑Highlighting, Refactorings, Debugging  
+- SOLID‑ und STUPID‑Prinzipien wiederholen (Übung)  
+- Setup und Nutzung einer Java‑IDE (Eclipse/Maven) für Debugging‑Aufgaben (Übung)  
+
+### Erkenntnis
+
+- **Design Patterns**: Entwurfsmuster dienen als gemeinsame Sprache im Team – wenn ich „Observer“ sage, weiß jeder sofort, dass es um Publish/Subscribe geht.  
+- **IDE‑Features**: Automatisches Refactoring und Live‑Debugging ermöglichen schnelle, sichere Code‑Modifikationen über mehrere Dateien hinweg.  
+- **Debugging‑Übung**: Durch das Setzen von Breakpoints und das Ein‑/Überschreiten von Codezeilen im Debug‑Modus habe ich verstanden, wie sich Variablenwerte während der Programmausführung verändern und wie man Fehler systematisch eingrenzt.  
+
+### Wiederholung
+
+**Fachbegriff:** Breakpoint  
+**Erklärung:**  
+Ein Breakpoint ist ein Haltepunkt im Quellcode, an dem der Debugger die Programmausführung anhält, sodass man den aktuellen Zustand (z. B. Variablenwerte, Call Stack) inspizieren kann. So lassen sich Fehlerursachen leichter nachvollziehen.  
