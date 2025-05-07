@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kompetenzen</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="index.html">
+                &lt;<strong>dev</strong> hs="HS-Fulda"&gt;
+            </a>
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projekte.html">Projekte</a></li>
+                    <li class="nav-item"><a class="nav-link" href="lebenslauf.html">Lebenslauf</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kompetenzen.html">Kompetenzen</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hobbys.html">Hobbys</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="kontakt.html">Kontakt</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Kontakt</h1>
+    </header>
+
+    <main class="container py-5">
+        <section>
+            <h2 class="mt-0 mb-4 text-center">Kontaktformular</h2>
+            <form action="" method="POST">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-Mail</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Nachricht</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Absenden</button>
+            </form>
+        </section>
+        <section class="mt-5">
+            <h2 class="mt-0 mb-4 text-center">Kontaktinformationen</h2>
+            <p class="text-center">Sie können mich auch direkt kontaktieren:</p>
+            <ul class="list-unstyled text-center">
+                <li><strong>E-Mail:</strong> <a href="mailto:"fulda-dev@gmail.com"></a></li>
+                <li><strong>Telefon:</strong> +49 123 456789</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hs-fulda/" target="_blank">hs-fulda</a></li>
+                <li><strong>GitHub:</strong> <a href="whttps://github.com/hs-fulda" target="_blank">hs-fulda</a></li>
+            </ul>
+        </section>
+</body>    

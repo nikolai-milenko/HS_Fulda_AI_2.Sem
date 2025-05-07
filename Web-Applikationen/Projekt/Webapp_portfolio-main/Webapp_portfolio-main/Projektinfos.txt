@@ -1,0 +1,21 @@
+Projektinfos:
+
+-Portfolie Website über fiktive Person (Entwickler)
+-sowohl auf Computer (Querformat) als auch Handy (Hochformat) optimiert
+
+-Bootstrap
+-Styles nach Möglichkeit nicht in html Datei reinschreiben, sondern alle in Stylesheet
+
+
+Inhalt:
+-jeder Punkt in der Navigationsleiste der Hauptseite ist eine eigene Unterseite, also eine eigene html Datei, welche jedoch für Einheitlichkeit z.B. die Farben von dem stylsheet nutzt
+
+-Startseite (index.html), Navigationsleiste oben um zu Unterseiten zu kommen, Foto und ein paar allgemeine Infos über fiktive Person
+
+Unterseiten und wer welche grob Ausarbeitet bis diesen Donnerstag:
+-Projekte - Norem
+-Lebenslauf (Schule, Firmen etc.) - Jonas
+-Kompetenzen - Nikolai
+-Freizeit - Alena
+-Kontakt - Nikolai
+-FAQ - Jonas
