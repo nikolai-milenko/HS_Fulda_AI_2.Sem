@@ -1,34 +1,35 @@
-# HS Fulda – Angewandte Informatik (2. Semester)
+# Angewandte Informatik – 2. Semester (persönliche Studienunterlagen)
 
-Dieses Repository enthält alle relevanten Materialien, Übungen und Projekte für das **2. Semester** im Studiengang **Angewandte Informatik** an der Hochschule Fulda.
+Dieses Repository enthält persönliche Zusammenfassungen, selbst erstellte Lösungen und begleitende Materialien für das **2. Semester** im Studiengang **Angewandte Informatik**.
 
 ## Modulübersicht
 
 - `Algebraische_Grundlagen_der_Informatik`  
-  Mitschriften, Übungsblätter, Lösungen
+  Eigene Mitschriften, selbst bearbeitete Aufgaben, Lösungsansätze
 
 - `Kommunikationsnetze_und_Protokolle`  
-  Theoretische Inhalte, Netzwerkaufgaben, ggf. Wireshark-Analysen
+  Notizen zu Netzwerkkonzepten, eigene Aufgabenlösungen, evtl. Wireshark-Analysen
 
 - `Programmiermethoden_und_Werkzeuge_2`  
-  Dokumentation zu Tools, Debugging, Build-Systeme, evtl. UML
+  Tool-Dokumentation, Debugging-Ansätze, eigene Build-Skripte, ggf. UML-Diagramme
 
 - `Programmierung_2`  
-  Java-Code, Projekte, Algorithmen, OOP, Testfälle
+  Java-Code, persönliche Projekte, Übungskonzepte zu OOP und Algorithmen
 
 - `Software_Engineering`  
-  Übungsblätter, Projektstruktur, Konzepte wie MVC, Designprinzipien
+  Eigene Projektstruktur, Konzepte wie MVC & Designprinzipien, Übungsansätze
 
 - `Web_Applikationen`  
-  HTML/CSS/JavaScript, Frameworks, praktische Web-Projekte
+  HTML/CSS/JavaScript, Framework-Erfahrungen, kleinere Web-Projekte
 
 ## Hinweise
 
-- Alle Inhalte dienen ausschließlich dem Studium und der Selbstorganisation.
-- Die Struktur kann im Laufe des Semesters erweitert oder angepasst werden.
-- Bei Weiterverwendung bitte die Quelle nennen.
+- Dieses Repository dient ausschließlich der privaten Studienorganisation und Übung.
+- Es enthält **keine offiziellen Lehrmaterialien der Hochschule Fulda**.
+- Aufgabenstellungen wurden ggf. zusammengefasst oder paraphrasiert.
+- Bei inhaltlicher Nutzung: Bitte Quelle und Autor nennen.
 
 ---
 
 > Studiengang: B.Sc. Angewandte Informatik  
-> Hochschule Fulda – Sommersemester 2025
+> Sommersemester 2025
