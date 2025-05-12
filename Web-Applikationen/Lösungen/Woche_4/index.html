@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Farbwähler</title>
+  <style>
+    #preview {
+        width: 300px; height: 200px;
+        border: solid #444;
+        display: flex; align-items: center; justify-content: center;
+    }
+    #palette button {
+      width: 40px; height: 40px; margin: 0.5rem;
+      border: none; cursor: pointer;
+    }
+    #controls button { margin-right: 0.5rem; }
+    #history { margin-top: 1rem; }
+  </style>
+</head>
+<body>
+    <h1>Farbwähler</h1>
+    <div id="preview">Preview</div>
+
+    <!-- Farbpalette -->
+    <div id="palette">
+        <button data-color="red"   style="background:red; border:1px solid #000000;"></button>
+        <button data-color="blue"  style="background:blue; border:1px solid #000000;"></button>
+        <button data-color="green" style="background:green; border:1px solid #000000;"></button>
+        <button data-color="yellow"style="background:yellow; border:1px solid #000000;"></button>
+        <button data-color="black" style="background:black; border:1px solid #000000;"></button>
+        <button data-color="white" style="background:white; border:1px solid #000000;"></button>
+    </div>
+
+    <div id="controls">
+        <button id="reset">Zurücksetzen</button>
+        <button id="undo">Letzte Farbe entfernen</button>
+    </div>
+
+    <h2>Farbhistorie</h2>
+    <p>Hier siehst du die letzten Farben, die du gewählt hast:</p>
+    <ul id="history"></ul>
+
+    <script>
+        // Reset: alles zurücksetzen
+        resetBtn.addEventListener('click', () => {
+            preview.style.backgroundColor = '';
+            colorHistory = [];
+            historyList.innerHTML = '';
+        });
+    </script>
+
+    <!-- Einbindung des externen Scripts -->
+    <script src="script.js"></script>
+
+</body>
+</html>
