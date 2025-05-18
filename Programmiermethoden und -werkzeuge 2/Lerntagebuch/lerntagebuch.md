@@ -77,4 +77,27 @@ Ein Software‑Modul soll für Erweiterungen offen, für Änderungen geschlossen
 
 **Fachbegriff:** Breakpoint  
 **Erklärung:**  
-Ein Breakpoint ist ein Haltepunkt im Quellcode, an dem der Debugger die Programmausführung anhält, sodass man den aktuellen Zustand (z. B. Variablenwerte, Call Stack) inspizieren kann. So lassen sich Fehlerursachen leichter nachvollziehen.  
+Ein Breakpoint ist ein Haltepunkt im Quellcode, an dem der Debugger die Programmausführung anhält, sodass man den aktuellen Zustand (z. B. Variablenwerte, Call Stack) inspizieren kann. So lassen sich Fehlerursachen leichter nachvollziehen.
+
+## Woche 2025-05-12
+- Datum der Vorlesung: 2025-05-12  
+- Halten Sie sich an dieses Muster damit der Eintrag von meinen Scripten gefunden werden kann!
+
+### Lernziel
+
+- Die Rolle von Git als verteiltes Versionskontrollsystem nachvollziehen  
+- Unterschiede zwischen zentralisierten und verteilten SCM-Ansätzen charakterisieren  
+- Die Maxime „Commit early, commit often“ in der eigenen Praxis umsetzen  
+- Verschiedene Branch-Typen (Feature, Develop, Release, Hotfix) und ihren Einsatz kennenlernen  
+- Merge- und Rebase-Workflows verstehen und ihre Vor- und Nachteile abwägen  
+- Praktische Handgriffe mit Staging Area, Branch-Befehlen und Reset in einer Java-IDE üben  
+
+### Erkenntnis
+
+Mir wurde deutlich, wie Git durch klar definierte Branch-Strukturen Teamarbeit erleichtert: Jeder Entwickler kann in seinem Feature-Branch isoliert arbeiten, während der Develop-Branch stets stabil bleibt. Besonders interessant fand ich, dass ein Rebase die Historie aufräumt und lineare Abläufe erzeugt, allerdings an Transparenz einbüßt. Die Merge-Übung hat mir gezeigt, wie wichtig saubere Konfliktlösungen sind, um den Projektverlauf nachvollziehbar zu halten.
+
+### Wiederholung
+
+**Begriff:** Rebase  
+**Erklärung in eigenen Worten:**  
+Beim Rebase „versetze“ ich die Commits meines aktuellen Branches auf einen anderen Zweig. Das ordnet alle Änderungen hintereinander in einer geraden Linie an und erzeugt so eine übersichtliche Historie. Konflikte, die dabei auftreten, bearbeite ich Commit für Commit, was eine präzise Kontrolle jeder Änderung ermöglicht.  
