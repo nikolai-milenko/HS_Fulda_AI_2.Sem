@@ -101,3 +101,27 @@ Mir wurde deutlich, wie Git durch klar definierte Branch-Strukturen Teamarbeit e
 **Begriff:** Rebase  
 **Erklärung in eigenen Worten:**  
 Beim Rebase „versetze“ ich die Commits meines aktuellen Branches auf einen anderen Zweig. Das ordnet alle Änderungen hintereinander in einer geraden Linie an und erzeugt so eine übersichtliche Historie. Konflikte, die dabei auftreten, bearbeite ich Commit für Commit, was eine präzise Kontrolle jeder Änderung ermöglicht.  
+
+## Woche 2025-05-19
+- Datum der Vorlesung: 2025-05-19  
+- Halten Sie sich an dieses Muster damit der Eintrag von meinen Scripten gefunden werden kann!
+
+### Lernziel
+
+- Einrichtung und Initialisierung eines bare Repositories für Remote-Zwecke  
+- Konfiguration und Nutzung von `origin` als Datei-basiertes Remote-Repository  
+- Unterschied zwischen einfachem Push und `--mirror` beim Aktualisieren aller Referenzen  
+- Einrichten von Upstream/Tracking für Branches und Auswirkungen auf `git push` und `git status`  
+- Verhalten und Risiko von `git push --force` vs. `--force-with-lease` verstehen  
+- Klonen eines Remote-Repositories und Synchronisation mit `pull` und `fetch`  
+- Umgang mit Fork-Workflows: Hinzufügen eines weiteren Remotes (`upstream`) und Unterscheidung zu `origin`  
+
+### Erkenntnis
+
+Die Übung hat mir verdeutlicht, dass ein bare Repository die zentrale Rolle eines Servers übernimmt, ohne Arbeitskopie, und dass man durch die gesicherte Historie jederzeit feststellen kann, welche Commits aktuell sind. Der Unterschied zwischen `--force` und `--force-with-lease` ist essenziell: Letzteres schützt vor versehentlichem Überschreiben von fremden Änderungen, indem es vor dem Push prüft, ob das Remote-Repository seit dem letzten Fetch verändert wurde.
+
+### Wiederholung
+
+**Begriff:** bare Repository  
+**Erklärung:**  
+Ein bare Repository ist eine Git-Struktur ohne Arbeitsverzeichnis, die ausschließlich die Git-Daten (Objekte und Referenzen) enthält. Es dient als zentrales Remote, auf das Entwickler ihre lokalen Repositories pushen und von dem sie pullen. Da keine Arbeitskopie existiert, kann man im bare Repository nicht direkt editieren oder bauen — es ist rein für den Datenaustausch konzipiert.  
