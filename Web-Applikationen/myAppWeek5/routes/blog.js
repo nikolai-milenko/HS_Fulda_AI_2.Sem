@@ -1,36 +1,51 @@
 const express = require('express');
 const router = express.Router();
 
-// Speicher für Blogeinträge (nur im RAM)
-const blogPosts = [];
+const fs = require('fs');
 
-// POST /blog – neuen Beitrag erstellen
+const blogPosts = require('../models/blog.json');
+
+var lastPostId = -1;
+
 router.post('/', (req, res) => {
-  const { year, month, day, author, title, text } = req.body;
+  const { author, title, text } = req.body;
 
-  if (!year || !month || !day || !author || !title || !text) {
+  if (!author || !title || !text) {
     return res.status(400).send('Alle Felder müssen ausgefüllt sein.');
   }
+  const postId = lastPostId++;
+  const date = new Date();
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0'); // Monat von 0-11, daher +1
+  const day = String(date.getDate()).padStart(2, '0'); // Tag von 1-31
 
-  const newPost = { year, month, day, author, title, text };
+  const newPost = { postId, year, month, day, author, title, text };
   blogPosts.push(newPost);
 
-  res.status(201).send('Blogeintrag gespeichert.');
+  fs.writeFileSync(`./models/blog.json`, JSON.stringify(blogPosts, null, 2), 'utf8');
+
+  res.status(201).send(newPost);
 });
 
 // GET /blog – alle Beiträge anzeigen
 router.get('/', (req, res) => {
+  if (blogPosts.length === 0) {
+    return res.status(404).send('Keine Blogeinträge gefunden.');
+  }
+  blogPosts.forEach(post => {
+    console.log(`ID: ${post.postId}, Titel: ${post.title}`);    
+  });
   res.json(blogPosts);
 });
 
 // GET /blog/:id – Blogeintrag per Index anzeigen
-router.get('/:id', (req, res) => {
-  const id = parseInt(req.params.id);
+router.get('/:postID', (req, res) => {
+  const id = parseInt(req.params.postID);
   if (isNaN(id) || id < 0 || id >= blogPosts.length) {
-    return res.status(404).send('Blogeintrag nicht gefunden.');
+    return res.status(404).send('Kein Eintrag');
   }
 
-  res.json(blogPosts[id]);
+  res.status(200).json([blogPosts[id].postId, blogPosts[id].title]);
 });
 
 
