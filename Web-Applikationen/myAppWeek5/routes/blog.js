@@ -5,15 +5,23 @@ const fs = require('fs');
 
 const blogPosts = require('../models/blog.json');
 
-var lastPostId = -1;
+var lastPostId = blogPosts.length > 0
+  ? blogPosts[blogPosts.length - 1].postId
+  : -1;
 
+
+// Blog-Routen
+
+// POST /blog – neuen Blogeintrag erstellen
+// Erwartet: { author: 'Autor', title: 'Titel', text: 'Inhalt' }
 router.post('/', (req, res) => {
   const { author, title, text } = req.body;
 
   if (!author || !title || !text) {
     return res.status(400).send('Alle Felder müssen ausgefüllt sein.');
   }
-  const postId = lastPostId++;
+  const postId = ++lastPostId;
+  console.log(`Neuer Blogeintrag mit ID: ${postId}`);
   const date = new Date();
   const year = date.getFullYear();
   const month = String(date.getMonth() + 1).padStart(2, '0'); // Monat von 0-11, daher +1

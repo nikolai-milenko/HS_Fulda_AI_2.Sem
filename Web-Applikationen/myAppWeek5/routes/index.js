@@ -34,5 +34,8 @@ router.post('/daten', (req, res) => {
   res.send(`Hallo ${name}, deine Daten wurden empfangen.`);
 });
 
+router.get('/newpost', (req, res) => {
+  res.render('newpost');
+});
 
 module.exports = router;
