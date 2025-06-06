@@ -9,15 +9,31 @@ var lastPostId = blogPosts.length > 0
   ? blogPosts[blogPosts.length - 1].postId
   : -1;
 
+const multer = require('multer');
+const path = require('path');
+
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, './public/uploads');
+  },
+  filename: function (req, file, cb) {
+    const unique = Date.now() + '-' + Math.round(Math.random() * 1e9);
+    cb(null, unique + path.extname(file.originalname));
+  }
+});
+
+const upload = multer({ storage: storage });
 
 // Blog-Routen
 
 // POST /blog – neuen Blogeintrag erstellen
 // Erwartet: { author: 'Autor', title: 'Titel', text: 'Inhalt' }
-router.post('/', (req, res) => {
+router.post('/', upload.single('image'), (req, res) => {
   const { author, title, text } = req.body;
+  const image = req.file ? req.file.filename : null;
 
   if (!author || !title || !text) {
+    console.log(`${author}, ${title}, ${text}, ${image}`);
     return res.status(400).send('Alle Felder müssen ausgefüllt sein.');
   }
   const postId = ++lastPostId;
@@ -27,7 +43,7 @@ router.post('/', (req, res) => {
   const month = String(date.getMonth() + 1).padStart(2, '0'); // Monat von 0-11, daher +1
   const day = String(date.getDate()).padStart(2, '0'); // Tag von 1-31
 
-  const newPost = { postId, year, month, day, author, title, text };
+  const newPost = { postId, year, month, day, author, title, text, image };
   blogPosts.push(newPost);
 
   fs.writeFileSync(`./models/blog.json`, JSON.stringify(blogPosts, null, 2), 'utf8');
