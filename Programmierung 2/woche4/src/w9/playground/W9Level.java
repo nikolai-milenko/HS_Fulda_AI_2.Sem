@@ -58,7 +58,7 @@ public class W9Level extends SpaceInvadersLevel {
     @Override
     public GameObject createEgoObject(){
         CollisionAware4WayController egoController = new CollisionAware4WayController(this.calcEgoSpeed());
-        egoController.setSpeed(this.calcEgoSpeed()) ;
+        egoController.setSpeed(this.calcEgoSpeed());
 
         GameObject ego = new EgoObject("ego", this, 50, preferredSizeY() - 60, 0, 0, EGORAD)
                 .setController(egoController).generateColliders();
@@ -67,8 +67,8 @@ public class W9Level extends SpaceInvadersLevel {
                 ego,
                 SpaceInvadersLevel.EGORAD,
                 Color.GREEN,
-                0.3,
-                0.075
+                0.7,
+                0.1
         ));
 
         return ego;
