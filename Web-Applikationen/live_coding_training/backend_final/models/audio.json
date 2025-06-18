@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "title": "Syntax Symphony",
+    "composer": "Julius Kramer",
+    "pic": "",
+    "description": "Ein orchestraler Streifzug durch die Welt von HTML, CSS und JavaScript.",
+    "count": 5
+  },
+  {
+    "id": 1,
+    "title": "The Async Overture",
+    "composer": "Lina Wolff",
+    "pic": "",
+    "description": "Eine klangvolle Komposition über Event Loops und Promises.",
+    "count": 4
+  },
+  {
+    "id": 2,
+    "title": "CSS & Harmony",
+    "composer": "Finn Schneider",
+    "pic": "",
+    "description": "Musikalische Muster inspiriert von Flexbox, Grid und Media Queries.",
+    "count": 6
+  },
+  {
+    "id": 3,
+    "title": "React Requiem",
+    "composer": "Sophie Lang",
+    "pic": "",
+    "description": "Eine emotionale Klangreise durch Komponenten, States und Lifecycle-Methoden.",
+    "count": 3
+  },
+  {
+    "id": 4,
+    "title": "The Git Sonata",
+    "composer": "Ben Tiller",
+    "pic": "",
+    "description": "Ein musikalisches Werk über Branches, Commits und Merge-Konflikte.",
+    "count": 5
+  },
+  {
+    "id": 5,
+    "title": "Echoes of Express",
+    "composer": "Mara Beck",
+    "pic": "",
+    "description": "Ein Ambient-Stück inspiriert von Routing, Middleware und APIs.",
+    "count": 4
+  },
+  {
+    "id": 6,
+    "title": "The DOM Suite",
+    "composer": "Niklas Stern",
+    "pic": "",
+    "description": "Eine Suite über die Manipulation der digitalen Welt – dynamisch und interaktiv.",
+    "count": 5
+  },
+  {
+    "id": 7,
+    "title": "WebAssembly Waves",
+    "composer": "Elisa Gruber",
+    "pic": "",
+    "description": "Elektronische Klangflächen, die die Leistung und Tiefe von WebAssembly feiern.",
+    "count": 2
+  },
+  {
+    "id": 8,
+    "title": "404 Variations",
+    "composer": "Tobias Mahler",
+    "pic": "",
+    "description": "Eine minimalistische Klangstudie über Fehler, Umwege und unerwartete Lösungen.",
+    "count": 6
+  },
+  {
+    "id": 9,
+    "title": "Full Stack Fugue",
+    "composer": "Hannah Dietrich",
+    "pic": "",
+    "description": "Eine kontrapunktische Komposition zwischen Frontend und Backend.",
+    "count": 3
+  },
+  {
+    "id": 10,
+    "title": "Syntax Symphony",
+    "composer": "Julius Kramer",
+    "pic": "",
+    "description": "Ein orchestraler Streifzug durch die Welt von HTML, CSS und JavaScript.",
+    "count": 8
+  }
+]

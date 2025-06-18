@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "title": "Frontend Weekly",
+    "author": "Lisa Bergmann",
+    "pic": "",
+    "description": "Aktuelle Trends, Tools und Best Practices für moderne Weboberflächen.",
+    "count": 5
+  },
+  {
+    "id": 1,
+    "title": "The Code Artisan",
+    "author": "Markus Lehner",
+    "pic": "",
+    "description": "Elegante Lösungen für komplexe Webprobleme - vom Handwerk der Programmierung.",
+    "count": 4
+  },
+  {
+    "id": 2,
+    "title": "JS Digest",
+    "author": "Selina Roth",
+    "pic": "",
+    "description": "Monatliche Highlights, Framework-News und Interviews aus der JavaScript-Welt.",
+    "count": 6
+  },
+  {
+    "id": 3,
+    "title": "Full Stack Focus",
+    "author": "Tom Neumann",
+    "pic": "",
+    "description": "Strategien, Tools und Praxisberichte für Front- und Backend-Profis.",
+    "count": 7
+  },
+  {
+    "id": 4,
+    "title": "The Async Journal",
+    "author": "Annika Scholz",
+    "pic": "",
+    "description": "Alles rund um APIs, Event Loops und serverseitige Magie mit Node.js.",
+    "count": 3
+  },
+  {
+    "id": 5,
+    "title": "CSS & Design Monthly",
+    "author": "Nico Werner",
+    "pic": "",
+    "description": "Kreative Ideen und technische Tiefen zu Styles, Grids und Animationen.",
+    "count": 5
+  },
+  {
+    "id": 6,
+    "title": "HTTP Insider",
+    "author": "Laura Kessler",
+    "pic": "",
+    "description": "Protokolle, Sicherheit, Header und Statuscodes im Detail erklärt.",
+    "count": 4
+  },
+  {
+    "id": 7,
+    "title": "React World",
+    "author": "Daniel Vogt",
+    "pic": "",
+    "description": "Das monatliche Update für alle, die mit Komponenten denken.",
+    "count": 6
+  },
+  {
+    "id": 8,
+    "title": "WebDev Explorer",
+    "author": "Emily Weber",
+    "pic": "",
+    "description": "Neues entdecken - von PWA bis WebAssembly, von Tools bis Trends.",
+    "count": 5
+  },
+  {
+    "id": 9,
+    "title": "Debug It!",
+    "author": "Johannes Keller",
+    "pic": "",
+    "description": "Knifflige Fehler, elegante Lösungen und Debugging-Werkzeuge im Vergleich.",
+    "count": 2
+  }
+]

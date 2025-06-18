@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "username": "Manuel",
+    "password": "test123",
+    "email": "manuel.richardt@ai.hs-fulda.de",
+    "role": "Standard",
+    "created": "2024-05-27T09:22:25.629Z"
+  },
+  {
+    "id": 1,
+    "username": "Dominik",
+    "password": "test123",
+    "email": "dominik.rupprecht@ai.hs-fulda.de",
+    "role": "Administrator",
+    "created": "2024-05-27T09:22:31.965Z"
+  },
+  {
+    "id": 2,
+    "username": "Lisa",
+    "password": "test123",
+    "email": "lisa.mueller@ai.hs-fulda.de",
+    "role": "Standard",
+    "created": "2024-05-27T09:22:38.472Z"
+  },
+  {
+    "id": 3,
+    "username": "Tobias",
+    "password": "test123",
+    "email": "tobias.schneider@ai.hs-fulda.de",
+    "role": "Standard",
+    "created": "2024-05-27T09:22:42.389Z"
+  },
+  {
+    "id": 4,
+    "username": "Sophie",
+    "password": "test123",
+    "email": "sophie.wagner@ai.hs-fulda.de",
+    "role": "Administrator",
+    "created": "2024-05-27T09:22:46.510Z"
+  },
+  {
+    "id": 5,
+    "username": "Jan",
+    "password": "test123",
+    "email": "jan.klein@ai.hs-fulda.de",
+    "role": "Standard",
+    "created": "2024-05-27T09:22:50.157Z"
+  },
+  {
+    "id": 6,
+    "username": "Laura",
+    "password": "test123",
+    "email": "laura.bauer@ai.hs-fulda.de",
+    "role": "Standard",
+    "created": "2024-05-27T09:22:54.078Z"
+  },
+  {
+    "id": 7,
+    "username": "Felix",
+    "password": "test123",
+    "email": "felix.hofmann@ai.hs-fulda.de",
+    "role": "Standard",
+    "created": "2024-05-27T09:22:58.992Z"
+  },
+  {
+    "id": 8,
+    "username": "Julia",
+    "password": "test123",
+    "email": "julia.frank@ai.hs-fulda.de",
+    "role": "Administrator",
+    "created": "2024-05-27T09:23:02.404Z"
+  },
+  {
+    "id": 9,
+    "username": "Nico",
+    "password": "new_reliable_password_123",
+    "email": "nico.becker@new.email.de",
+    "role": "Standard",
+    "created": "2024-05-27T09:23:06.215Z"
+  },
+  {
+    "id": 10,
+    "username": "Anna",
+    "password": "test123",
+    "email": "anna.schmitt@ai.hs-fulda.de",
+    "role": "Standard",
+    "created": "2024-05-27T09:23:10.178Z"
+  }
+]

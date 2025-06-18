@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "title": "Hot to programm a webserver usering Express",
+    "author": "Hans Müller",
+    "pic": "",
+    "description": "A practical guide to building powerful web servers using Express.js, covering routing, middleware, REST APIs, and deployment — ideal for beginners and aspiring full-stack developers.",
+    "count": 5
+  },
+  {
+    "id": 1,
+    "title": "Mastering Node.js Applications",
+    "author": "Laura Becker",
+    "pic": "",
+    "description": "Learn how to build scalable, high-performance backend applications using Node.js, from event loops to deployment.",
+    "count": 3
+  },
+  {
+    "id": 2,
+    "title": "CSS Secrets Unveiled",
+    "author": "Tobias Klein",
+    "pic": "",
+    "description": "Unlock advanced CSS techniques to create stunning, responsive, and maintainable web designs.",
+    "count": 4
+  },
+  {
+    "id": 3,
+    "title": "JavaScript: From Basics to Beyond",
+    "author": "Sophie Wagner",
+    "pic": "",
+    "description": "A complete journey through JavaScript — from variables and functions to closures, async programming, and real-world projects.",
+    "count": 7
+  },
+  {
+    "id": 4,
+    "title": "RESTful API Design with Express",
+    "author": "Jan Hofmann",
+    "pic": "",
+    "description": "Design and implement clean, efficient RESTful APIs using Express.js and industry best practices.",
+    "count": 5
+  },
+  {
+    "id": 5,
+    "title": "Frontend Development with React",
+    "author": "Julia Schmitt",
+    "pic": "",
+    "description": "Build interactive user interfaces and single-page applications with React, JSX, and component-based architecture.",
+    "count": 6
+  },
+  {
+    "id": 6,
+    "title": "TypeScript for JavaScript Developers",
+    "author": "Felix Krüger",
+    "pic": "",
+    "description": "A beginner-friendly introduction to TypeScript and how it enhances JavaScript applications with static typing and tooling.",
+    "count": 2
+  },
+  {
+    "id": 7,
+    "title": "Database Essentials for Web Apps",
+    "author": "Nico Frank",
+    "pic": "",
+    "description": "Understand relational and NoSQL databases, schema design, queries, and integration with web applications.",
+    "count": 4
+  },
+  {
+    "id": 8,
+    "title": "Debugging and Testing in JavaScript",
+    "author": "Lisa Müller",
+    "pic": "",
+    "description": "Improve code reliability through effective debugging strategies, test-driven development, and modern testing frameworks.",
+    "count": 5
+  },
+  {
+    "id": 9,
+    "title": "Modern Web Architecture",
+    "author": "Paul Schneider",
+    "pic": "",
+    "description": "Explore microservices, serverless deployment, and modular design patterns for future-proof web applications.",
+    "count": 3
+  },
+  {
+    "id": 10,
+    "title": "Security for Web Developers",
+    "author": "Anna Bauer",
+    "pic": "",
+    "description": "Protect your apps with best practices in authentication, authorization, data validation, and secure coding.",
+    "count": 6
+  }
+]

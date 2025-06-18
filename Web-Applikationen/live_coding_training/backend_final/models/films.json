@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "title": "The JavaScript Jungle",
+    "director": "Hans Müller",
+    "pic": "",
+    "description": "Ein actiongeladener Streifzug durch Frameworks, Bugs und Debugging - für mutige Entwicklerherzen.",
+    "count": 5
+  },
+  {
+    "id": 1,
+    "title": "HTML: Rise of the Tags",
+    "director": "Clara Schmitt",
+    "pic": "",
+    "description": "Wenn jedes Tag zählt - die Entstehung einer revolutionären Webanwendung.",
+    "count": 4
+  },
+  {
+    "id": 2,
+    "title": "CSS Secrets Unveiled",
+    "director": "Leon Fischer",
+    "pic": "",
+    "description": "Ein visuell beeindruckender Thriller über Design, Stylesheets und den Kampf um responsives Layout.",
+    "count": 7
+  },
+  {
+    "id": 3,
+    "title": "Express to Infinity",
+    "director": "Mira Albrecht",
+    "pic": "",
+    "description": "Ein Backend-Drama über Routing, Middleware und die Jagd nach der perfekten API.",
+    "count": 3
+  },
+  {
+    "id": 4,
+    "title": "The Full Stack Paradox",
+    "director": "Daniel König",
+    "pic": "",
+    "description": "Zwischen Frontend und Backend - ein junger Entwickler entdeckt die Macht der ganzen Architektur.",
+    "count": 6
+  },
+  {
+    "id": 5,
+    "title": "404: Page Not Found",
+    "director": "Lena Hoffmann",
+    "pic": "",
+    "description": "Ein psychologischer Tech-Thriller, der die dunklen Seiten des Webs erkundet.",
+    "count": 4
+  },
+  {
+    "id": 6,
+    "title": "React and Reload",
+    "director": "Tobias Meier",
+    "pic": "",
+    "description": "Ein rasantes Abenteuer mit Hooks, States und Komponenten.",
+    "count": 8
+  },
+  {
+    "id": 7,
+    "title": "Node Wars: The Server Awakens",
+    "director": "Sophie Krüger",
+    "pic": "",
+    "description": "Im Untergrund entsteht ein Server - bereit, das Netz zu revolutionieren.",
+    "count": 5
+  },
+  {
+    "id": 8,
+    "title": "Git Push: The Final Commit",
+    "director": "Jonas Berg",
+    "pic": "",
+    "description": "Ein Team, ein Repository - und eine letzte Chance, den Merge-Konflikt zu lösen.",
+    "count": 2
+  },
+  {
+    "id": 9,
+    "title": "The DOMinator",
+    "director": "Katharina Weiss",
+    "pic": "",
+    "description": "Ein Sci-Fi-Epos, in dem Manipulation von HTML-Elementen über Leben und Tod entscheidet.",
+    "count": 6
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "userid": 1,
+    "articleId": 1,
+    "articleType": "book",
+    "start": "2025-05-05",
+    "end": "2025-05-08"
+  },
+  {
+    "id": 1,
+    "userid": 4,
+    "articleId": 5,
+    "articleType": "book",
+    "start": "2025-05-05",
+    "end": "2025-05-09"
+  },
+  {
+    "id": 3,
+    "userid": 4,
+    "articleId": 5,
+    "articleType": "journal",
+    "start": "2025-05-12",
+    "end": "2025-05-24"
+  },
+  {
+    "id": 4,
+    "userid": 4,
+    "articleId": 5,
+    "articleType": "audio",
+    "start": "2025-07-05",
+    "end": "2025-07-08"
+  },
+  {
+    "id": 5,
+    "userid": 4,
+    "articleId": 5,
+    "articleType": "book",
+    "start": "2025-08-05",
+    "end": "2025-08-08"
+  },
+  {
+    "id": 6,
+    "userid": 6,
+    "articleId": 5,
+    "articleType": "book",
+    "start": "2025-05-05",
+    "end": "2025-05-09"
+  },
+  {
+    "id": 7,
+    "userid": 8,
+    "articleId": 4,
+    "articleType": "film",
+    "start": "2025-08-07",
+    "end": "2025-08-25"
+  },
+  {
+    "id": 8,
+    "userid": 7,
+    "articleId": 9,
+    "articleType": "book",
+    "start": "2025-08-20",
+    "end": "2025-08-27"
+  },
+  {
+    "id": 9,
+    "userid": 2,
+    "articleId": 0,
+    "articleType": "book",
+    "start": "2025-06-29",
+    "end": "2025-07-11"
+  },
+  {
+    "id": 10,
+    "userid": 9,
+    "articleId": 1,
+    "articleType": "film",
+    "start": "2025-06-14",
+    "end": "2025-06-21"
+  },
+  {
+    "id": 11,
+    "userid": 1,
+    "articleId": 7,
+    "articleType": "audio",
+    "start": "2025-06-08",
+    "end": "2025-06-24"
+  },
+  {
+    "id": 12,
+    "userid": 8,
+    "articleId": 5,
+    "articleType": "audio",
+    "start": "2025-08-06",
+    "end": "2025-08-11"
+  },
+  {
+    "id": 13,
+    "userid": 3,
+    "articleId": 1,
+    "articleType": "book",
+    "start": "2025-06-28",
+    "end": "2025-07-15"
+  },
+  {
+    "id": 14,
+    "userid": 5,
+    "articleId": 8,
+    "articleType": "audio",
+    "start": "2025-07-04",
+    "end": "2025-07-22"
+  },
+  {
+    "id": 15,
+    "userid": 1,
+    "articleId": 8,
+    "articleType": "book",
+    "start": "2025-06-08",
+    "end": "2025-06-27"
+  },
+  {
+    "id": 16,
+    "userid": 3,
+    "articleId": 8,
+    "articleType": "journal",
+    "start": "2025-07-27",
+    "end": "2025-08-05"
+  },
+  {
+    "id": 17,
+    "userid": 8,
+    "articleId": 2,
+    "articleType": "journal",
+    "start": "2025-06-30",
+    "end": "2025-07-11"
+  },
+  {
+    "id": 18,
+    "userid": 4,
+    "articleId": 2,
+    "articleType": "journal",
+    "start": "2025-07-17",
+    "end": "2025-07-24"
+  },
+  {
+    "id": 19,
+    "userid": 0,
+    "articleId": 9,
+    "articleType": "film",
+    "start": "2025-07-07",
+    "end": "2025-07-16"
+  },
+  {
+    "id": 20,
+    "userid": 7,
+    "articleId": 5,
+    "articleType": "journal",
+    "start": "2025-07-20",
+    "end": "2025-08-08"
+  },
+  {
+    "id": 21,
+    "userid": 6,
+    "articleId": 0,
+    "articleType": "film",
+    "start": "2025-06-22",
+    "end": "2025-07-12"
+  },
+  {
+    "id": 22,
+    "userid": 9,
+    "articleId": 9,
+    "articleType": "audio",
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  {
+    "id": 23,
+    "userid": 7,
+    "articleId": 8,
+    "articleType": "book",
+    "start": "2025-07-21",
+    "end": "2025-07-26"
+  },
+  {
+    "id": 24,
+    "userid": 7,
+    "articleId": 1,
+    "articleType": "audio",
+    "start": "2025-06-17",
+    "end": "2025-07-04"
+  },
+  {
+    "id": 25,
+    "userid": 2,
+    "articleId": 2,
+    "articleType": "book",
+    "start": "2025-08-25",
+    "end": "2025-09-02"
+  },
+  {
+    "id": 26,
+    "userid": 1,
+    "articleId": 6,
+    "articleType": "journal",
+    "start": "2025-08-26",
+    "end": "2025-09-04"
+  },
+  {
+    "id": 27,
+    "userid": 5,
+    "articleId": 6,
+    "articleType": "book",
+    "start": "2025-07-19",
+    "end": "2025-07-24"
+  },
+  {
+    "id": 28,
+    "userid": 8,
+    "articleId": 3,
+    "articleType": "journal",
+    "start": "2025-08-04",
+    "end": "2025-08-09"
+  },
+  {
+    "id": 29,
+    "userid": 8,
+    "articleId": 2,
+    "articleType": "audio",
+    "start": "2025-06-12",
+    "end": "2025-06-29"
+  },
+  {
+    "id": 30,
+    "userid": 2,
+    "articleId": 9,
+    "articleType": "audio",
+    "start": "2025-08-31",
+    "end": "2025-09-15"
+  }
+]
