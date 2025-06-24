@@ -71,6 +71,14 @@ const createBorrow = (bor) => {
     if (check.status !== 200) {
         return { status: check.status, data: check.data };
     }
+    
+    const activeBorrows = borrows
+        .filter(b => b.userid === userid && b.articleType === articleType);
+    if (activeBorrows.length >= 3) {
+        return { status: 403, data: "User has already borrowed 3 articles of this type" };
+    }
+    
+    // console.log(activeBorrows.length);
 
     let newId = borrows.length ? borrows[borrows.length - 1].id + 1 : 0;
     if (data.id) {

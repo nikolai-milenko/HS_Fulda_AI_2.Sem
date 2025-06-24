@@ -161,7 +161,8 @@
 var express = require('express');
 var router = express.Router();
 
-let borrowController = require('../controllers/borrowsController')
+let borrowController = require('../controllers/borrowsController');
+const { route } = require('./films');
 
 router.route("/")
   .get((req, res, next) => {
@@ -187,4 +188,18 @@ router.route("/:id")
     res.status(response.status).json(response.data);
   })
 
+router.route("/overdue/date/:date")
+  .get((req, res, next) => {
+    const { date } = req.params;
+    const response = borrowController.findOverdueAfterDate(date);
+    res.status(response.status).json(response.data);
+  });
+
+router.route("/overdue/:year/:month")
+  .get((req, res, next) => {
+    const { year, month } = req.params;
+    const date = `${year}-${month.padStart(2, '0')}-01`;
+    const response = borrowController.findOverdueAfterDate(date);
+    res.status(response.status).json(response.data);
+  });
 module.exports = router;

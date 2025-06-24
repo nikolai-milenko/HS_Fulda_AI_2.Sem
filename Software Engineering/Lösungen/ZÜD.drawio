@@ -1,0 +1,415 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Seite-1" id="JXbILGHRLXS-UDGbSZZA">
+    <mxGraphModel dx="1601" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-1" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-3" target="QJO2rAzwygg-VWCNkGwp-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="190" />
+              <mxPoint x="180" y="-35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-3" value="Warten" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-9" value="do /&amp;nbsp;Anzeige des Idle-Bildschirms in ausgewählter Sprache (Standard - Deutsch);&amp;nbsp;Variablen zurücksetzen&amp;nbsp;&lt;div&gt;do /&amp;nbsp;Nutzungsdaten senden&lt;/div&gt;" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="QJO2rAzwygg-VWCNkGwp-3">
+          <mxGeometry y="28" width="140" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QJO2rAzwygg-VWCNkGwp-3" source="QJO2rAzwygg-VWCNkGwp-9" target="QJO2rAzwygg-VWCNkGwp-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-9.450000000000045" y="101.69200000000001" as="targetPoint" />
+            <mxPoint x="-10.009999999999991" y="74" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint y="74" />
+              <mxPoint x="-100" y="74" />
+              <mxPoint x="-100" y="90" />
+              <mxPoint y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-44" value="auf die englische Flagge gedrückt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-43">
+          <mxGeometry x="0.4724" y="-2" relative="1" as="geometry">
+            <mxPoint x="-30" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-1" target="QJO2rAzwygg-VWCNkGwp-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="195.01999999999998" as="sourcePoint" />
+            <mxPoint x="138.88" y="217.61200000000008" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="139" y="200" />
+              <mxPoint x="139" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="484" y="170" />
+              <mxPoint x="280" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-55" value="Abbruch gedrückt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-54">
+          <mxGeometry x="-0.296" y="-4" relative="1" as="geometry">
+            <mxPoint x="-40" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-16" value="Anzahl Auswahl" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="190" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-22" value="&lt;div&gt;entry / Anzahl auf 1 setzen (Standard)&lt;/div&gt;do / Mengenauswahl anzeigen&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Anzahl geändert /&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;Aktuelle&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;Anzahl&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 11px; text-wrap-mode: nowrap; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;aktualisieren&lt;/span&gt;&lt;/div&gt;" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="QJO2rAzwygg-VWCNkGwp-16">
+          <mxGeometry y="30" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.007;entryY=0.586;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-9" target="QJO2rAzwygg-VWCNkGwp-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="281" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-28" value="5er-Karte gewählt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-27">
+          <mxGeometry x="-0.2334" y="-1" relative="1" as="geometry">
+            <mxPoint x="13" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-30" value="Wartungsmodus" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="361" y="-110" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-31" value="do/ UI sperren; Technikerfunktionen freigeben&lt;div&gt;do / Systemdiagnose durchführen; Konfiguration empfangen/anwenden; Nutzungsdaten senden&lt;/div&gt;&lt;div&gt;exit / Systemstart vorbereiten&lt;/div&gt;" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="QJO2rAzwygg-VWCNkGwp-30">
+          <mxGeometry y="30" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-33" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Wartungsmodus aktiviert&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="194" y="-60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-9" target="QJO2rAzwygg-VWCNkGwp-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="386.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-39" value="interner Fehler erkannt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-38">
+          <mxGeometry x="0.3651" y="3" relative="1" as="geometry">
+            <mxPoint x="-41" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-46" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="440" width="440" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-47" value="Fehlerbehandlung" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFE9E9,#EDEDED);strokeColor=#000000;gradientColor=none;perimeterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="440" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-49" target="QJO2rAzwygg-VWCNkGwp-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="777" y="150" />
+              <mxPoint x="265" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-66" value="Abbruch gedrückt / Eingeworfene Coins zurückgeben" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-63">
+          <mxGeometry x="-0.4128" y="-1" relative="1" as="geometry">
+            <mxPoint x="-17" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-49" value="Bezalvorgang" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="687" y="195" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="QJO2rAzwygg-VWCNkGwp-49" source="QJO2rAzwygg-VWCNkGwp-50" target="QJO2rAzwygg-VWCNkGwp-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="133" y="221" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="303" y="90" />
+              <mxPoint x="303" y="181" />
+              <mxPoint x="135" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-68" value="Gültiger Coin eingeworfen&amp;nbsp;&lt;div&gt;[noch Coins benötigt]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-67">
+          <mxGeometry x="0.3333" y="3" relative="1" as="geometry">
+            <mxPoint x="-9" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-50" value="entry / Aufforderung Coin einwerfen; benötigten Coin-Typ (Farbe) anzeigen&lt;div&gt;do /&amp;nbsp;Coin-Eingabe überwachen; Coin-Validierung durchführen&lt;/div&gt;" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="QJO2rAzwygg-VWCNkGwp-49">
+          <mxGeometry y="30" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-22" target="QJO2rAzwygg-VWCNkGwp-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="245" />
+              <mxPoint x="680" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-52" value="Anzahl bestätigt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-51">
+          <mxGeometry x="-0.1461" relative="1" as="geometry">
+            <mxPoint x="19" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="776.9999999999998" y="304.98" as="sourcePoint" />
+            <mxPoint x="470" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="777" y="359" />
+              <mxPoint x="470" y="359" />
+              <mxPoint x="470" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-62" value="Ungültiger Coin eingeworfen / Coin zurückgeben" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-61">
+          <mxGeometry x="-0.1515" y="1" relative="1" as="geometry">
+            <mxPoint x="-27" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="867" y="270.5" as="sourcePoint" />
+            <mxPoint x="1061" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1004" y="271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-74" value="Gültiger Coin eingeworfen&amp;nbsp;&lt;div&gt;[alle Coins erhalten]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-73">
+          <mxGeometry x="-0.2727" y="-1" relative="1" as="geometry">
+            <mxPoint x="31" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.001;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-79" target="QJO2rAzwygg-VWCNkGwp-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1241" y="281.25" as="sourcePoint" />
+            <mxPoint x="1300" y="281" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1196" y="530" />
+              <mxPoint x="1280" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-85" value="Ticket erfolgreich gedruckt&lt;div&gt;und ausgegeben&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-84">
+          <mxGeometry x="-0.6673" y="1" relative="1" as="geometry">
+            <mxPoint x="-77" y="63" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-76" value="Ticketausgabe" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="230" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-79" value="entry / Ticket-Daten vorbereiten (QR-Code, Zeitstempel, URL)&lt;div&gt;do / Ticket drucken; Ticket ausgeben&lt;/div&gt;" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="QJO2rAzwygg-VWCNkGwp-76">
+          <mxGeometry y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.854;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-79" target="QJO2rAzwygg-VWCNkGwp-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-81" value="Druckerfehler /&amp;nbsp;(ggf. Coin zurückgeben)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-80">
+          <mxGeometry x="-0.1545" relative="1" as="geometry">
+            <mxPoint x="-54" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1325" y="110" />
+              <mxPoint x="250" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-88" value="Timeout" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-87">
+          <mxGeometry x="-0.6955" y="-1" relative="1" as="geometry">
+            <mxPoint x="-26" y="194" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.84;exitY=-0.001;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="489.96" as="sourcePoint" />
+            <mxPoint x="240" y="189.96" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1430" y="490" />
+              <mxPoint x="1430" y="90" />
+              <mxPoint x="240" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-91" value="Kein Kassenbon&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;gewählt&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-90">
+          <mxGeometry x="-0.4463" y="-6" relative="1" as="geometry">
+            <mxPoint x="17" y="366" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1510" y="515" />
+              <mxPoint x="1510" y="70" />
+              <mxPoint x="210" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-93" value="Kassenbon drucken gewählt / Kassenbon drucken" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-92">
+          <mxGeometry x="-0.9225" relative="1" as="geometry">
+            <mxPoint x="-130" y="-431" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-82" value="KassenbonAuswahl" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="490" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-83" value="&lt;div&gt;entry / Frage &quot;Kassenbon drucken?&quot; anzeigen&lt;/div&gt;&lt;div&gt;do / Warten auf Benutzerentscheidung&lt;/div&gt;" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="QJO2rAzwygg-VWCNkGwp-82">
+          <mxGeometry y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.241;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="158.60000000000014" y="252.17200000000025" as="targetPoint" />
+            <mxPoint x="160.00000000000023" y="230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="160" y="232" />
+              <mxPoint x="60" y="232" />
+              <mxPoint x="60" y="252" />
+              <mxPoint x="150" y="252" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-42" value="auf die deutsche Flagge gedrückt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-40">
+          <mxGeometry x="0.2998" relative="1" as="geometry">
+            <mxPoint x="-11" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-31" target="QJO2rAzwygg-VWCNkGwp-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="404" y="60" />
+              <mxPoint x="195" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-95" value="Wartungsmodus deaktiviert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-94">
+          <mxGeometry x="-0.1617" y="-3" relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-98" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-99" value="FehlerAnzeige" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="500" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-100" value="entry / Fehlermeldung anzeigen&lt;div&gt;do / Problem analysieren; Logging durchführen&lt;/div&gt;" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="QJO2rAzwygg-VWCNkGwp-99">
+          <mxGeometry y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.386;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-98" target="QJO2rAzwygg-VWCNkGwp-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-102" value="Warten auf Behebung" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="660" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-103" value="do / Problem beheben versuchen; Systemstatus überwachen" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="QJO2rAzwygg-VWCNkGwp-102">
+          <mxGeometry y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-100" target="QJO2rAzwygg-VWCNkGwp-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-105" value="Fehler nicht sofort&lt;div&gt;&amp;nbsp;behoben&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-104">
+          <mxGeometry x="0.2272" y="2" relative="1" as="geometry">
+            <mxPoint x="-52" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.002;exitY=0.32;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-46" target="QJO2rAzwygg-VWCNkGwp-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="574" />
+              <mxPoint x="-20" y="-130" />
+              <mxPoint x="446" y="-130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-117" value="Nicht behebbarer Fehler" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-116">
+          <mxGeometry x="-0.8517" y="2" relative="1" as="geometry">
+            <mxPoint x="-23" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.9999999999998" y="860" as="sourcePoint" />
+            <mxPoint x="170.00000000000023" y="340.0000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="860" />
+              <mxPoint x="510" y="890" />
+              <mxPoint x="171" y="890" />
+              <mxPoint x="171" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-106" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="840" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-100" target="QJO2rAzwygg-VWCNkGwp-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.9999999999998" y="547.5" as="sourcePoint" />
+            <mxPoint x="529.9999999999998" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="547" />
+              <mxPoint x="630" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-108" value="&lt;div&gt;Fehler behoben&amp;nbsp;&lt;/div&gt;&lt;div&gt;(z.B. Ungültiger Coin&amp;nbsp;&lt;/div&gt;&lt;div&gt;zurückgegeben)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-107">
+          <mxGeometry x="-0.0138" y="2" relative="1" as="geometry">
+            <mxPoint x="-82" y="-124" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-103" target="QJO2rAzwygg-VWCNkGwp-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-111" value="Fehler behoben /&amp;nbsp;&lt;div&gt;Benutzer hat quittiert&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-110">
+          <mxGeometry x="-0.4993" y="-4" relative="1" as="geometry">
+            <mxPoint x="64" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-103" target="QJO2rAzwygg-VWCNkGwp-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-113" value="Fehler weiterhin&amp;nbsp;&lt;div&gt;vorhanden&amp;nbsp;&lt;div&gt;(z.B. nach&amp;nbsp;&lt;/div&gt;&lt;div&gt;Selbstheilungsversuch)&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-112">
+          <mxGeometry x="0.129" y="-1" relative="1" as="geometry">
+            <mxPoint x="59" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.108;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.002;exitY=0.154;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="505.2" as="sourcePoint" />
+            <mxPoint x="185.1199999999999" y="340.0040000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-118" value="Fehler behoben" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-114">
+          <mxGeometry x="-0.1662" y="-4" relative="1" as="geometry">
+            <mxPoint x="41" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.005;entryY=0.285;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-9" target="QJO2rAzwygg-VWCNkGwp-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-122" value="Einzelfahrt gewählt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-121">
+          <mxGeometry x="0.08" y="1" relative="1" as="geometry">
+            <mxPoint x="-12" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-124" value="Fehler behoben" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="414" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-125" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="660" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-83" target="QJO2rAzwygg-VWCNkGwp-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,6 +1,4 @@
 var fs = require('fs');
-const { title } = require('process');
-const { deserialize } = require('v8');
 var data = fs.readFileSync('models/films.json');
 
 let films;
@@ -23,9 +21,10 @@ const getAllFilms = () => {
 }
 
 const createFilm = (data) => {
-  let { title, director, description, count } = data.body;
-  if (!title || !director || !description || !count) {
-    return { status: 422, data: "title, director, description and count must be set" };
+  let { title, director, description, count, eanNummer } = data.body;
+  // console.log(eanNummer)
+  if (!title || !director || !description || !count || !eanNummer || eanNummer.toString().length !== 13) {
+    return { status: 422, data: "title, director, description, count and EAN-Number must be set. EAN-Number length must be exactly 13." };
   }
   try {
     let filename = '';
@@ -44,7 +43,8 @@ const createFilm = (data) => {
       director: director,
       pic: filename,
       description: description,
-      count: count
+      count: count,
+      eanNummer: eanNummer
     }
     films.push(film);
     fs.writeFileSync('models/films.json', JSON.stringify(films, null, 2));
@@ -67,7 +67,7 @@ const readFilm = (id) => {
 const updateFilm = (id, data) => {
   let filmIndex = films.findIndex(p => p.id === parseInt(id));
 
-  let { title, director, description, count } = data.body;
+  let { title, director, description, count, eanNummer } = data.body;
 
   if (filmIndex != -1) {
     let filename = films[filmIndex].pic;
@@ -80,6 +80,12 @@ const updateFilm = (id, data) => {
     if (director != undefined) { films[filmIndex].director = director; }
     if (description != undefined) { films[filmIndex].description = description; }
     if (count != undefined) { films[filmIndex].count = count; }
+    if (eanNummer != undefined) {
+      if (eanNummer.toString().length !== 13) {
+        return { status: 422, data: "EAN-Number length must be exactly 13." };
+      }
+      films[filmIndex].eanNummer = eanNummer;
+    }
 
     fs.writeFileSync('models/films.json', JSON.stringify(films, null, 2));
     return { status: 200, data: films[filmIndex] };
@@ -99,16 +105,11 @@ const deleteFilm = (id) => {
 }
 
 const getFilmsByDirector = (director) => {
-  let filteredFilms = films
-    .filter(film => film.director.toLowerCase() === director.toLowerCase())
-    .map(film => ({
-      title: film.title,
-      count: film.count
-    }));
-  if (filteredFilms.length === 0) {
-    return { status: 404, data: "No films found for this director" };
+  let filteredFilms = films.filter(film => film.director.toLowerCase() === director.toLowerCase());
+  if (filteredFilms.length > 0) {
+    return { status: 200, data: filteredFilms };
   }
-  return {status: 200, data: filteredFilms};
+  return { status: 404, data: "No films found for this director" };
 }
 
 module.exports = {

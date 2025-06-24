@@ -1,0 +1,137 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Seite-1" id="JXbILGHRLXS-UDGbSZZA">
+    <mxGraphModel dx="1692" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-1" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-3" target="QJO2rAzwygg-VWCNkGwp-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-3" value="Warten" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.241;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QJO2rAzwygg-VWCNkGwp-3" source="QJO2rAzwygg-VWCNkGwp-9" target="QJO2rAzwygg-VWCNkGwp-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="30" />
+              <mxPoint x="-100" y="30" />
+              <mxPoint x="-100" y="50" />
+              <mxPoint x="-10" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-42" value="auf die deutsche Flagge gedrückt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-40">
+          <mxGeometry x="0.2998" relative="1" as="geometry">
+            <mxPoint x="-11" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-9" value="do /&amp;nbsp;Anzeige des Idle-Bildschirms in ausgewählter Sprache (Standard - Deutsch);&amp;nbsp;Variablen zurücksetzen&amp;nbsp;" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="QJO2rAzwygg-VWCNkGwp-3">
+          <mxGeometry y="28" width="140" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.674;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QJO2rAzwygg-VWCNkGwp-3" source="QJO2rAzwygg-VWCNkGwp-9" target="QJO2rAzwygg-VWCNkGwp-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-9.450000000000045" y="101.69200000000001" as="targetPoint" />
+            <mxPoint x="-10.009999999999991" y="74" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-100" y="74" />
+              <mxPoint x="-100" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-44" value="auf die englische Flagge gedrückt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-43">
+          <mxGeometry x="0.4724" y="-2" relative="1" as="geometry">
+            <mxPoint x="-33" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="167.41" as="sourcePoint" />
+            <mxPoint x="188.88" y="190.0020000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="189" y="167.41" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-16" target="QJO2rAzwygg-VWCNkGwp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-55" value="Abbruch gedrückt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-54">
+          <mxGeometry x="-0.296" y="-4" relative="1" as="geometry">
+            <mxPoint x="-40" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-16" value="Anzahl Auswahl" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="190" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-22" value="&lt;div&gt;entry / Anzahl auf 1 setzen (Standard)&lt;/div&gt;do / Mengenauswahl anzeigen&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Anzahl geändert /&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;Aktuelle&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;Anzahl&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 11px; text-wrap-mode: nowrap; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;aktualisieren&lt;/span&gt;&lt;/div&gt;" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="QJO2rAzwygg-VWCNkGwp-16">
+          <mxGeometry y="30" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.002;exitY=0.681;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.004;entryY=0.607;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-9" target="QJO2rAzwygg-VWCNkGwp-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="281" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-28" value="5er-Karte gewählt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-27">
+          <mxGeometry x="-0.2334" y="-1" relative="1" as="geometry">
+            <mxPoint x="13" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-30" value="Wartungsmodus" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="344" y="40" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-31" value="do/ UI sperren; Technikerfunktionen freigeben" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="QJO2rAzwygg-VWCNkGwp-30">
+          <mxGeometry y="30" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-33" value="Wartungsmodus aktiviert" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="184" y="50" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-9" target="QJO2rAzwygg-VWCNkGwp-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="386.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-39" value="interner Fehler erkannt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-38">
+          <mxGeometry x="0.3651" y="3" relative="1" as="geometry">
+            <mxPoint x="-41" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-46" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="370" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-47" value="Fehlerbehandlung" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFE9E9,#EDEDED);strokeColor=#000000;gradientColor=none;perimeterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="361.5" y="370" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-49" value="Bezalvorgang" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="687" y="230" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-50" value="do/ UI sperren; Technikerfunktionen freigeben" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="QJO2rAzwygg-VWCNkGwp-49">
+          <mxGeometry y="30" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-22" target="QJO2rAzwygg-VWCNkGwp-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-52" value="Anzahl bestätigt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-51">
+          <mxGeometry x="-0.1461" relative="1" as="geometry">
+            <mxPoint x="20" y="38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.23;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QJO2rAzwygg-VWCNkGwp-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="301.4" y="241" as="sourcePoint" />
+            <mxPoint x="413.9999999999999" y="240.7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QJO2rAzwygg-VWCNkGwp-60" value="&lt;span style=&quot;&quot;&gt;Einzelfahrt gewählt&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=none;" vertex="1" connectable="0" parent="QJO2rAzwygg-VWCNkGwp-59">
+          <mxGeometry x="-0.3168" relative="1" as="geometry">
+            <mxPoint x="14" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

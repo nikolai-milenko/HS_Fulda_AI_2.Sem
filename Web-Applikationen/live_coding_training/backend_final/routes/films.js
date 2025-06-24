@@ -183,10 +183,11 @@ router.route("/:id")
     res.status(response.status).json(response.data);
   })
 
-router.route("/director/:name")
+router.route("/director/:director")
   .get((req, res, next) => {
-    let response = filmsController.getFilmsByDirector(req.params.name);
+    let response = filmsController.getFilmsByDirector(req.params.director);
     res.status(response.status).json(response.data);
-  }
-)
+  });
+
+
 module.exports = router;
