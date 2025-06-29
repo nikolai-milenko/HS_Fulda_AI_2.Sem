@@ -25,3 +25,41 @@
   <button type="submit" class="btn btn-primary">Create Post</button>
   <a href="/blogs" class="btn btn-secondary">Cancel</a>
 </form>
+
+<script>
+  function validateForm() {
+    document.querySelector('form').addEventListener('submit', function(event) {
+      const author = document.getElementById('author').value.trim();
+      const title = document.getElementById('title').value.trim();
+      const text = document.getElementById('text').value.trim();
+
+      if (!author || !title || !text) {
+        event.preventDefault();
+        alert('Please fill in all fields.');
+      }
+
+      // Titel muss keine Sonderzeichen enthalten
+      const titleRegex = /^[a-zA-Z0-9\s]+$/;
+      if (!titleRegex.test(title)) {
+        event.preventDefault();
+        alert('Title must not contain special characters.');
+      }
+
+      // E-Mail: Der eingegebene Name muss Teil der E-Mail sein und diese muss aus dem Fachbereich AI der Hochschule Fulda sein.
+      const emailRegex = /^[a-zA-Z0-9._%+-]+@hs-fulda\.de$/;
+      if (!emailRegex.test(author)) {
+        event.preventDefault();
+        alert('Author must be a valid email from the AI department of Hochschule Fulda.');
+      }
+
+      // Text: Der eingegebene Text darf nicht leer sein und darf kein "<script>" oder "</script>" enthalten
+      if (text.includes('<script>') || text.includes('</script>')) {
+        event.preventDefault();
+        alert('Text must not contain script tags.');
+      }
+    });
+  }
+
+  // Call the function to register the event listener
+  validateForm();
+</script>
