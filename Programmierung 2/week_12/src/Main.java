@@ -33,20 +33,33 @@ public class Main {
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
 
         // Eingabe Panel
-        JPanel inputPanel = new JPanel(new FlowLayout());
+        JPanel inputPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 5, 0));
+        inputPanel.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, 0));
         nameField = new JTextField(15);
         adresseField = new JTextField(15);
         inputPanel.add(new JLabel("Name:"));
         inputPanel.add(nameField);
         inputPanel.add(new JLabel("Adresse:"));
         inputPanel.add(adresseField);
+        inputPanel.setAlignmentY(Component.TOP_ALIGNMENT);
 
         // Button Panel
-        JPanel buttonPanel = new JPanel(new FlowLayout());
+        JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 5, 0));
+        buttonPanel.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, 0));
         JButton leftButton = new JButton("<--");
         JButton rightButton = new JButton("-->");
         buttonPanel.add(leftButton);
         buttonPanel.add(rightButton);
+        buttonPanel.setAlignmentY(Component.TOP_ALIGNMENT);
+
+        inputPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
+        buttonPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
+
+        Dimension inpPref = inputPanel.getPreferredSize();
+        inputPanel.setMaximumSize(new Dimension(Integer.MAX_VALUE, inpPref.height));
+
+        Dimension btnPref = buttonPanel.getPreferredSize();
+        buttonPanel.setMaximumSize(new Dimension(Integer.MAX_VALUE, btnPref.height));
 
         // Event-Handling für Buttons
         leftButton.addActionListener(e -> {
@@ -71,8 +84,6 @@ public class Main {
 
         mainPanel.add(inputPanel);
         mainPanel.add(buttonPanel);
-        frame.setContentPane(mainPanel);
-        frame.setVisible(true);
 
         // Datenbank füllen mit 2 Threads
         Thread thread1 = new Thread(() -> {
@@ -106,8 +117,10 @@ public class Main {
 
         JButton neuButton = new JButton("Neu");
         JButton searchButton = new JButton("Search");
+        JTextField searchLabel = new JTextField("Search:", 15);
 
         buttonPanel.add(neuButton);
+        buttonPanel.add(searchLabel);
         buttonPanel.add(searchButton);
 
         neuButton.addActionListener(e -> {
@@ -118,28 +131,23 @@ public class Main {
         });
 
         /*
-         * Aufgabe 4 – Fragen als Kommentar
+         * Aufgabe 4.
+         * Welche Interfaces werden hier implementiert? Von welcher Klasse?
+         * Das Interface Runnable wird von zwei anonymen Klassen (bzw. Lambdas)
+         * implementiert, die an die Threads übergeben werden.
          *
-         * • Welche Interfaces werden hier implementiert? Von welcher Klasse?
-         *   → Das Interface Runnable wird von zwei anonymen Klassen (bzw. Lambdas)
-         *     implementiert, die an die Threads übergeben werden.
+         * Welche Abfolge von Meier und Müller beobachten Sie in der Datenbank? Können Sie das erklären?
+         * Die Einträge von „Meier“ und „Müller“ erscheinen in zufälliger Reihenfolge.
+         * Das liegt daran, dass beide Threads gleichzeitig (parallel) auf dieselbe ArrayList schreiben.
          *
-         * • Welche Abfolge von Meier und Müller beobachten Sie in der Datenbank? Können Sie das erklären?
-         *   → Die Einträge von „Meier“ und „Müller“ erscheinen in scheinbar zufälliger (nicht vorhersehbarer) Reihenfolge.
-         *     Das liegt daran, dass beide Threads gleichzeitig (parallel) auf dieselbe ArrayList schreiben.
-         *     Da keine Synchronisierung erfolgt, hängt die konkrete Reihenfolge vom Scheduling des Betriebssystems ab.
-         *
-         * • Welches Objekt haben Sie beim Befüllen der Datenbank (Aufgabe 2) als Monitor-Instanz benutzt? Und warum?
-         *   → In dieser Implementierung wurde KEIN explizites Synchronisierungsobjekt (Monitor) verwendet.
-         *     Das bedeutet, es besteht eine potenzielle Race Condition beim gleichzeitigen Zugriff auf die ArrayList.
-         *     Eigentlich müsste man z.B. ein synchronisiertes Objekt verwenden oder den Zugriff mit „synchronized“ schützen,
-         *     z.B. mit: synchronized(datenbank) { datenbank.add(...) }
+         * Welches Objekt haben Sie beim Befüllen der Datenbank (Aufgabe 2) als Monitor-Instanz benutzt? Und warum?
          */
 
+        // Aufgabe 5
         searchButton.addActionListener(e -> {
             speichernInAktuellenEintrag();
 
-            String suchtext = nameField.getText();
+            String suchtext = searchLabel.getText();
 
             for (int i = 0; i < datenbank.size(); i++) {
                 if (datenbank.get(i).getName().equals(suchtext)) {
@@ -150,6 +158,10 @@ public class Main {
             }
 
         });
+
+        mainPanel.add(Box.createVerticalGlue());
+        frame.setContentPane(mainPanel);
+        frame.setVisible(true);
 
     }
 
